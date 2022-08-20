@@ -1,0 +1,49 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+#heading {
+    font-size: 1.05em;
+}
+
+.email-text {
+    font-weight: 600;
+}
+
+.password-text {
+    font-weight:600;
+}
+
+.button {
+    display: inline-flex;
+    background: white;
+    padding: 0 1em;
+    border-radius: 8px;
+    border-color: rgb(202, 201, 201);
+    overflow: hidden;
+    font-family: 'Calibri', sans-serif;
+    font-weight: 600;
+}
+
+.button-icon {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 12px;
+    color: darkgray;
+    height: 75%;
+}
+
+.button-text {
+    display: inline-flex;
+    align-items: center;
+    padding: 0;
+    color: rgb(38, 43, 39);
+}
+
+.last-button {
+    padding: 0 5em;
+    background: rgb(34, 125, 215);
+    border-radius: 8px;
+    border-color: rgb(34, 125, 215);
+    color:whitesmoke;
+}
