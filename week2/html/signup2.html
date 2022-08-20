@@ -1,60 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <link rel="stylesheet" type="text/css"
-    href="../css/style.css">
-    <title>My website</title>
+    <link rel="stylesheet" type="text/css" href="../css/signup2.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+
 </head>
+
 <body>
-    <h1 id="title">my website</h1>
-    <p>check 1, 2, & 3</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt molestiae in debitis perferendis. At explicabo corrupti eaque dolorum quidem reiciendis!</p>
-    <h2 class="subtitle">about me</h2>
-    <a href="http://www.google.com" class="link">Click here to go to Google</a>
-    <p class="para-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laborum, laboriosam error sed quasi minus?</p>
-    <ul>
-        <li class="list-item">weak in tools</li>
-        <ol>
-            <li class="list-item">my list items</li>
-        </ol>
-        <li>no distribution/trust</li>
-        <li>little to zero knowledge</li>
-    </ul>
+    <form action="" method="">
+        <h1 class="title">Sign up</h1>
+        <!-- Sign up button -->
+        <button type="submit" class="button">
+            <span class="button-icon">
+                <ion-icon name="logo-google"></ion-icon>
+            </span>
+            <span class="button-text">Sign up with Google</span>
+        </button>
+        <br>
+        <br>
+        <label for="name">Name</label>
+        <br>
+        <input type="text" name="name" id="name" placeholder="Pritesh Singh">
+        <br>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <input type="email" name="" id="" placeholder="your@email">
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" placeholder="at least 8 characters">
+        <br>
+        <br>
+        <input type="checkbox" value="agree" name="t&c" id="">I agree with <a href="#"><strong>Terms</strong></a> & <a
+            href="#"><strong>Privacy</strong></a>
+        <br>
+        <br>
+        <input type="submit" class="last-button" value="Sign up">
+        <hr>
+        <p>Already have an account?
+            <br>
+            <a href="#"><strong>Log in</strong></a>
+        </p>
 
-    <table border="1">
-        <thead>
-            <tr>
-                <td>marketer</td>
-                <td>storyteller</td>
-                <td>mathematics</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>writing</td>
-                <td>speaking</td>
-                <td>logical & analytical</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>2</td>
-                <td>3</td>
-            </tr>
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-        </tbody>
-    </table>
-    <div id="essay-image"></div>
- <h2 class="subtitle"> test </h2>
-    <form>
-        <input type="text" placeholder="full name"
-        class="form-input">
-        <input type="email" placeholder="Email"
-        class="form-input">
-        <textarea></textarea>
-        <button>Submit</button>
+
     </form>
 </body>
+
 </html>
